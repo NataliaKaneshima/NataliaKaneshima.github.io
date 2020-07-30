@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 15px;
+    padding-top: 0px;
+    text-align: center;
+    background: #f0e5a4;
+}
+
+.header img {
+    min-width: 5px;
+    max-width: 50rem;
+}
+
+.comida{
+    border: 5px solid #333;
+    overflow: hidden;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    display: flex;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comida li {
+    padding: 5px;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    
+    
+    position: relative;
+}
+
+.comida li:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.tabela {   
+    float: left;
+    max-width: 85%;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card img{
+    max-width: 30rem;
+}
+
+.arrow img{
+    float: left;
+    max-width: 5%;
+    padding-top: 30px;
+    padding-left: 10px;
+    position: fixed;
+}
